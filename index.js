@@ -1,6 +1,6 @@
 var express = require ('express');
 var app =   express ();
-var organizations = {''};
+var organizations = [''];
 app.get('/', function(req, res){
   res.end();
 });
