@@ -5,7 +5,6 @@
     "start": "meteor run"
   },
   "dependencies": {
-    "mapbox": "^1.0.0-beta4",
     "meteor-node-stubs": "~0.2.0"
   }
 }
