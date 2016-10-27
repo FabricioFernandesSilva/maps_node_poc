@@ -1,4 +1,4 @@
 import { Template } from 'meteor/templating';
-import '../lib/ui/body.js'
+import '../lib/body.js'
 
-import './main.html';
+import './body.html';
