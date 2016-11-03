@@ -1,6 +1,6 @@
 <template name='home'>
   <header>
-    menu
+    menuzão
   </header>
 
   <div class='full-card'>
@@ -12,7 +12,13 @@
     <div class='main-card'>
 
       <div id="map">
-        MAP
+        <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FsZiIsImEiOiJjaXVpcTJkYzMwMG5zMnpwZ3AzNjd4OHAyIn0.KrlaOdOd89IASilFH93huA';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/galf/ciuiq4q6k000x2inyjm3b19pc'            
+        });
+        </script>
       </div>
 
       <div class='bot-card'>
